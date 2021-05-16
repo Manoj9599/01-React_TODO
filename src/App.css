@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.listItems {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.form {
+  width: 250px;
+  display: flex;
+}
