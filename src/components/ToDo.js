@@ -63,7 +63,7 @@ const ToDo = () => {
               </Card.Body>
               <Card.Footer>
                 <Button variant="danger" onClick={handleClearAllItems}>
-                  Clear all the items
+                  Clear all items
                 </Button>
               </Card.Footer>
             </Card>
