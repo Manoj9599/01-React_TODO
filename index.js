@@ -14,7 +14,7 @@ app.post("/api/login", login);
 app.post("/api/admin/:email", admin);
 app.get("/api/getAllUsers/", getAllUsers);
 app.get("/api/getBYyId/:id", getBYyId);
-
-app.listen(`${process.env.PORT}`, () => {
-  console.log(`BE server running at ${process.env.PORT}...`);
+let PORT = 3000;
+app.listen(`${PORT}`, () => {
+  console.log(`BE server running at ${PORT}...`);
 });
